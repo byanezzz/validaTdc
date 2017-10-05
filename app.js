@@ -13,7 +13,7 @@ isValidCard();
  	/*Validamos los dígitos ingresados por el usuario sean 
  	realmente numeros y no hayan campos vacíos*/
  	var invalido=false;
- 	if(arrNumTdc.length===0||(arrNumTdc.length>=15 && arrNumTdc.length<=16){
+ 	if(arrNumTdc.length===0||(arrNumTdc.length>=15 && arrNumTdc.length<=16)){
  		invalido=true;
  		alert("La cantidad de dígitos ingresados no es válida");
  	}else{
