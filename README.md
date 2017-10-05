@@ -10,7 +10,7 @@
       2. Sino, evaluo por cada elemento del array (por medio de una expresion repetitiva)si alguno esta vacio o no es un numero 
       3. Si se cumple una de las condiciones anteriores la variable inválido es verdadera
 5. Mientras la variable invalido sea verdadera deben repetirse los pasos del 1 al 4.
-6. El array arrNumTdc se invierte usando la funcion reverse y se alamacena en un nuevo array declarado como varrInv.
+6. El array arrNumTdc se invierte usando la funcion reverse y se alamacena en un nuevo array declarado como arrInv.
 7. Se realizan las operaciones indicadas en el algoritmo de Luhn
   1. Recorremos el array (arrInv) comenzando en el segundo elemento (i=1) del mismo y avanzando en pasos de dos en dos para asegurarnos de que recorra solo los elementos pares.
   2. Se evalua la condicion de si el elemento par multiplicado por dos es mayor a diez entonces sumaremos los digitos resultantes del producto.
