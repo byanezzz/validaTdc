@@ -1,7 +1,4 @@
 
-isValidCard();
-
-
 function isValidCard(){
 do{		
 	var numTdc=prompt("N° tarjeta de crédito");
@@ -56,4 +53,5 @@ do{
 		alert("Tarjeta Inválida")
 	}
 }
-	
+	isValidCard();
+
